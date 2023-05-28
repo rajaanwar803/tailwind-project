@@ -12,7 +12,7 @@ import {
 } from '@/components/ui/card'
 import { Store } from 'lucide-react'
 import { useRouter } from 'next/router'
-import image from '../../public/image/pic.jpg'
+import image from '../../public/images/profile.jpg'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -32,7 +32,7 @@ export default function Home() {
               <CardDescription className='text-4xl text-gray-400 font-semibold'>Full Stack Developer</CardDescription>
             </CardHeader>
             <CardContent>
-              <Image src={image} height={1000} width={1000} alt='' className='w-[150px] h-[150px] mt-6 mr-2 rounded-full' />
+              <Image src={image} height={1000} width={1000} alt='' className='w-[150px] h-[150px] mt-6 mr-4 rounded-full' />
             </CardContent>
           </div>
           <CardFooter>
